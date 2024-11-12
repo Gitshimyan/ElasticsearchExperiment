@@ -109,7 +109,7 @@ PUT /ecommerce
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/1.png)
+![Markdown Logo](./Images/1.png)
 ### 数据引入--
 ```
 POST /ecommerce/_bulk
@@ -1925,7 +1925,7 @@ POST /ecommerce/_bulk
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/2.png)
+![Markdown Logo](./Images/2.png)
 
 ### 数据分析--1.统计每个产品类别的总销售额
 ```
@@ -2049,7 +2049,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/3.png)
+![Markdown Logo](./Images/3.png)
 ### 数据分析--2.计算每个城市的平均订单金额
 ```
 POST /ecommerce/_search
@@ -2173,7 +2173,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/4.png)
+![Markdown Logo](./Images/4.png)
 ### 数据分析--3.找出销量最高的前5个产品
 ```
 POST /ecommerce/_search
@@ -2266,7 +2266,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/5.png)
+![Markdown Logo](./Images/5.png)
 ### 数据分析--4.计算男性和女性客户的平均年龄
 ```
 POST /ecommerce/_search
@@ -2334,7 +2334,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/6.png)
+![Markdown Logo](./Images/6.png)
 ### 数据分析--5.统计每种支付方式的使用次数和总金额
 ```
 POST /ecommerce/_search
@@ -2433,7 +2433,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/7.png)
+![Markdown Logo](./Images/7.png)
 ### 数据分析--6.计算每月的总销售额
 ```
 POST /ecommerce/_search
@@ -2582,7 +2582,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/8.png)
+![Markdown Logo](./Images/8.png)
 ### 数据分析--7.找出平均订单金额最高的前3个客户
 ```
 POST /ecommerce/_search
@@ -2661,7 +2661,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/9.png)
+![Markdown Logo](./Images/9.png)
 ### 数据分析--8.计算每个年龄段（18-30，31-50，51+）的客户数量
 ```
 POST /ecommerce/_search
@@ -2728,7 +2728,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/10.png)
+![Markdown Logo](./Images/10.png)
 ### 数据分析--9.计算每个产品类别的平均单价
 ```
 POST /ecommerce/_search
@@ -2852,7 +2852,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/11.png)
+![Markdown Logo](./Images/11.png)
 ### 数据分析--10.找出订单数量最多的前5个城市
 ```
 POST /ecommerce/_search
@@ -2923,7 +2923,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/12.png)
+![Markdown Logo](./Images/12.png)
 ### 数据分析--11.计算每个季度的平均订单金额
 ```
 POST /ecommerce/_search
@@ -3008,7 +3008,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/13.png)
+![Markdown Logo](./Images/13.png)
 ### 数据分析--12.统计每个产品类别中的商品数量
 ```
 POST /ecommerce/_search
@@ -3132,7 +3132,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/14.png)
+![Markdown Logo](./Images/14.png)
 ### 数据分析--13.计算男性和女性客户的平均订单金额
 ```
 POST /ecommerce/_search
@@ -3200,7 +3200,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/15.png)
+![Markdown Logo](./Images/15.png)
 ### 数据分析--14.找出总销售额最高的前10个日期
 ```
 POST /ecommerce/_search
@@ -6168,7 +6168,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/16.png)
+![Markdown Logo](./Images/16.png)
 ### 数据分析--15.计算每个季度销售额最高的产品类别
 ```
 POST /ecommerce/_search
@@ -6534,7 +6534,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/17.png)
+![Markdown Logo](./Images/17.png)
 ### 数据分析--16.计算每天的订单数量，并显示7天移动平均值
 ```
 POST /ecommerce/_search
@@ -6591,7 +6591,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/18.png)
+![Markdown Logo](./Images/18.png)
 ### 数据分析--17.比较本月销售额与上月销售额的差异
 ```
 POST /ecommerce/_search
@@ -6740,7 +6740,7 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/19.png)
+![Markdown Logo](./Images/19.png)
 ### 数据分析--18.计算每周的总销售额，并找出销售额增长最快的一周
 ```
 POST /ecommerce/_search
@@ -7316,4 +7316,4 @@ POST /ecommerce/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/20.png)
+![Markdown Logo](./Images/20.png)

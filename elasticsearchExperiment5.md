@@ -35,77 +35,77 @@
 ### 查看索引--
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/000a.png)
+![Markdown Logo](./Images/000a.png)
 
 ***
 ### 创建 Data Views
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/000b.png)
+![Markdown Logo](./Images/000b.png)
 
 ### 创建 Dashboard
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/000c.png)
+![Markdown Logo](./Images/000c.png)
 
 ### 数据分析--1.统计每个产品类别的总销售额
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0001.png)
+![Markdown Logo](./Images/0001.png)
 ***
 
 ### 数据分析--2.计算每个城市的平均订单金额
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0002.png)
+![Markdown Logo](./Images/0002.png)
 ***
 
 ### 数据分析--3.找出销量最高的前5个产品
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0003.png)
+![Markdown Logo](./Images/0003.png)
 ***
 
 ### 数据分析--4.计算男性和女性客户的平均年龄
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0004.png)
+![Markdown Logo](./Images/0004.png)
 ***
 
 ### 数据分析--5.统计每种支付方式的使用次数和总金额
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0005.png)
+![Markdown Logo](./Images/0005.png)
 ***
 
 ### 数据分析--6.计算每月的总销售额
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0006.png)
+![Markdown Logo](./Images/0006.png)
 ***
 
 ### 数据分析--7.找出平均订单金额最高的前3个客户
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0007.png)
+![Markdown Logo](./Images/0007.png)
 ***
 
 ### 数据分析--8.计算每个年龄段（18-30，31-50，51+）的客户数量
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0008.png)
+![Markdown Logo](./Images/0008.png)
 ***
 
 ### 数据分析--9.计算每个产品类别的平均单价
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0009.png)
+![Markdown Logo](./Images/0009.png)
 ***
 
 ### 数据分析--10.找出订单数量最多的前5个城市
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/00010.png)
+![Markdown Logo](./Images/00010.png)
 
 
 ***
@@ -113,5 +113,5 @@
 ### 数据分析总览
 
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/00011.png)
+![Markdown Logo](./Images/00011.png)
 

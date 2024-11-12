@@ -67,7 +67,7 @@ output {
 ```
 ### 在命令行中运行 Logstash 并加载配置文件： .\bin\logstash -f D:\logstash-8.12.2\config\goto.conf
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/001.png)
+![Markdown Logo](./Images/001.png)
 ### 查看索引--
 ```
 GET tomcat_logs/_mapping
@@ -211,7 +211,7 @@ GET tomcat_logs/_mapping
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/002.png)
+![Markdown Logo](./Images/002.png)
 ### 日志分析--1.统计每个响应码的出现次数
 ```
 GET tomcat_logs/_search
@@ -273,7 +273,7 @@ GET tomcat_logs/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/003.png)
+![Markdown Logo](./Images/003.png)
 
 ### 日志分析--2.统计每种 HTTP 方法的出现次数
 ```
@@ -328,7 +328,7 @@ GET tomcat_logs/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/004.png)
+![Markdown Logo](./Images/004.png)
 
 ### 日志分析--3.统计每个客户端 IP 的出现次数
 ```
@@ -379,7 +379,7 @@ GET tomcat_logs/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/005.png)
+![Markdown Logo](./Images/005.png)
 
 ### 日志分析--4.统计日志条目的数量
 ```
@@ -477,7 +477,7 @@ GET tomcat_logs/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/006.png)
+![Markdown Logo](./Images/006.png)
 
 ### 日志分析--5.统计每个请求的 URL 出现次数
 ```
@@ -565,7 +565,7 @@ GET tomcat_logs/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/007.png)
+![Markdown Logo](./Images/007.png)
 ***
 ### 创建 Logstash 配置文件--sqlgoto.conf
 ```
@@ -593,7 +593,7 @@ output {
 ```
 ### 在命令行中运行 Logstash 并加载配置文件： .\bin\logstash -f D:\logstash-8.12.2\config\sqlgoto.conf
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/008.png)
+![Markdown Logo](./Images/008.png)
 ### 查看索引--
 ```
 GET /student/_search
@@ -730,8 +730,8 @@ GET /student/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/009.png)
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0011.png)
+![Markdown Logo](./Images/009.png)
+![Markdown Logo](./Images/0011.png)
 ### 更新数据库后查看索引--
 ```
 GET /student/_search
@@ -902,5 +902,5 @@ GET /student/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0010.png)
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/0012.png)
+![Markdown Logo](./Images/0010.png)
+![Markdown Logo](./Images/0012.png)

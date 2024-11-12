@@ -101,7 +101,7 @@ PUT /user_information
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/01.png)
+![Markdown Logo](./Images/01.png)
 ### 修改索引--
 ```
 PUT /user_information/_mapping
@@ -120,7 +120,7 @@ PUT /user_information/_mapping
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/02.png)
+![Markdown Logo](./Images/02.png)
 ### 查看所有索引--
 ```
 GET /_cat/indices?v
@@ -131,7 +131,7 @@ health status index            uuid                   pri rep docs.count docs.de
 yellow open   user_information cNkk3emvRp22usGQfi-PNQ   1   1          0            0       227b           227b         227b
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/03.png)
+![Markdown Logo](./Images/03.png)
 ### 删除索引--
 ```
 DELETE /user_information
@@ -143,7 +143,7 @@ DELETE /user_information
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/04.png)
+![Markdown Logo](./Images/04.png)
 ***
 ***--文档操作练习--***
 
@@ -342,7 +342,7 @@ PUT /order_records
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/05.png)
+![Markdown Logo](./Images/05.png)
 ### 创建文档--
 ```
 POST /user_information/_doc/001
@@ -376,7 +376,7 @@ POST /user_information/_doc/001
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/06.png)
+![Markdown Logo](./Images/06.png)
 ### 修改文档--
 ```
 POST /user_information/_update/001
@@ -404,7 +404,7 @@ POST /user_information/_update/001
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/07.png)
+![Markdown Logo](./Images/07.png)
 ### 查看文档--
 ```
 GET /user_information/_doc/001
@@ -433,7 +433,7 @@ GET /user_information/_doc/001
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/08.png)
+![Markdown Logo](./Images/08.png)
 ### 删除文档--
 ```
 DELETE /user_information/_doc/001
@@ -455,7 +455,7 @@ DELETE /user_information/_doc/001
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/09.png)
+![Markdown Logo](./Images/09.png)
 ### 文档批量处理--用户信息数据
 ```
 POST /user_information/_bulk
@@ -830,7 +830,7 @@ POST /user_information/_bulk
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/010.png)
+![Markdown Logo](./Images/010.png)
 ### 文档批量处理--产品目录数据
 ```
 POST /product_catalog/_bulk
@@ -1205,7 +1205,7 @@ POST /product_catalog/_bulk
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/011.png)
+![Markdown Logo](./Images/011.png)
 ### 文档批量处理--订单记录数据
 ```
 POST /order_records/_bulk
@@ -1580,7 +1580,7 @@ POST /order_records/_bulk
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/012.png)
+![Markdown Logo](./Images/012.png)
 ***
 ***--高级查询&DSL练习--***
 
@@ -1779,7 +1779,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/013.png)
+![Markdown Logo](./Images/013.png)
 ### 用户数据查询--查找最后登录日期在2024年9月1日之后的所有活跃用户
 ```
 GET /user_information/_search
@@ -1987,7 +1987,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/014.png)
+![Markdown Logo](./Images/014.png)
 ### 用户数据查询--查询住在"Anytown"的用户
 ```
 GET /user_information/_search
@@ -2039,7 +2039,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/015.png)
+![Markdown Logo](./Images/015.png)
 ### 用户数据查询--查找出生日期在1990年之后的所有用户
 ```
 GET /user_information/_search
@@ -2246,7 +2246,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/016.png)
+![Markdown Logo](./Images/016.png)
 ### 用户数据查询--查询所有状态为"inactive"的用户
 ```
 GET /user_information/_search
@@ -2383,7 +2383,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/017.png)
+![Markdown Logo](./Images/017.png)
 ### 用户数据查询--查找注册日期在2023年1月1日到2023年12月31日之间的用户
 ```
 GET /user_information/_search
@@ -2591,7 +2591,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/018.png)
+![Markdown Logo](./Images/018.png)
 ### 用户数据查询--查询名字为"Bob Smith"的用户的详细信息
 ```
 GET /user_information/_search
@@ -2625,7 +2625,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/019.png)
+![Markdown Logo](./Images/019.png)
 ### 用户数据查询--查找电话号码以"123"开头的用户
 ```
 GET /user_information/_search
@@ -2694,7 +2694,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/020.png)
+![Markdown Logo](./Images/020.png)
 ### 用户数据查询--查询电子邮件域为"example.com"的所有用户
 ```
 GET /user_information/_search
@@ -2899,7 +2899,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/021.png)
+![Markdown Logo](./Images/021.png)
 ### 用户数据查询--查找所有名字中包含"Lee"的用户
 ```
 GET /user_information/_search
@@ -2951,7 +2951,7 @@ GET /user_information/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/022.png)
+![Markdown Logo](./Images/022.png)
 ### 产品数据查询--查询所有类别为"Audio"的产品名称和价格
 ```
 GET /product_catalog/_search
@@ -3005,7 +3005,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/023.png)
+![Markdown Logo](./Images/023.png)
 ### 产品数据查询--查找价格高于50美元的所有产品
 ```
 GET /product_catalog/_search
@@ -3252,7 +3252,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/024.png)
+![Markdown Logo](./Images/024.png)
 ### 产品数据查询--查询库存数量少于100的产品
 ```
 GET /product_catalog/_search
@@ -3394,7 +3394,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/025.png)
+![Markdown Logo](./Images/025.png)
 ### 产品数据查询--查找评分高于4.5的所有产品
 ```
 GET /product_catalog/_search
@@ -3641,7 +3641,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/026.png)
+![Markdown Logo](./Images/026.png)
 ### 产品数据查询--查询标签中包含"smart"的所有产品
 ```
 GET /product_catalog/_search
@@ -3718,7 +3718,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/027.png)
+![Markdown Logo](./Images/027.png)
 ### 产品数据查询--查找供应商为"TechCorp"的产品
 ```
 GET /product_catalog/_search
@@ -3774,7 +3774,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/028.png)
+![Markdown Logo](./Images/028.png)
 ### 产品数据查询--查询发布日期在2023年6月1日之后的所有产品
 ```
 GET /product_catalog/_search
@@ -4021,7 +4021,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/029.png)
+![Markdown Logo](./Images/029.png)
 ### 产品数据查询--查找描述中包含"wireless"的产品
 ```
 GET /product_catalog/_search
@@ -4077,7 +4077,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/030.png)
+![Markdown Logo](./Images/030.png)
 ### 产品数据查询--查询价格在20美元到100美元之间的所有产品
 ```
 GET /product_catalog/_search
@@ -4325,7 +4325,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/031.png)
+![Markdown Logo](./Images/031.png)
 ### 产品数据查询--查找产品名称中包含"Light"的所有产品
 ```
 GET /product_catalog/_search
@@ -4381,7 +4381,7 @@ GET /product_catalog/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/032.png)
+![Markdown Logo](./Images/032.png)
 ### 订单数据查询--查询所有状态为"completed"的订单的订单ID和总金额
 ```
 GET /order_records/_search
@@ -4489,7 +4489,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/033.png)
+![Markdown Logo](./Images/033.png)
 ### 订单数据查询--查找总金额大于100美元的所有订单
 ```
 GET /order_records/_search
@@ -4761,7 +4761,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/034.png)
+![Markdown Logo](./Images/034.png)
 ### 订单数据查询--查询支付方式为"paypal"的订单
 ```
 GET /order_records/_search
@@ -4888,7 +4888,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/035.png)
+![Markdown Logo](./Images/035.png)
 ### 订单数据查询--查找订单日期在2024年2月之后的所有订单
 ```
 GET /order_records/_search
@@ -5155,7 +5155,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/036.png)
+![Markdown Logo](./Images/036.png)
 ### 订单数据查询--查询包含产品ID为"P001"的订单
 ```
 GET /order_records/_search
@@ -5223,7 +5223,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/037.png)
+![Markdown Logo](./Images/037.png)
 ### 订单数据查询--查找所有状态为"cancelled"的订单的客户ID
 ```
 GET /order_records/_search
@@ -5283,7 +5283,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/038.png)
+![Markdown Logo](./Images/038.png)
 ### 订单数据查询--查询发货日期在2024年1月15日之前的订单
 ```
 GET /order_records/_search
@@ -5348,7 +5348,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/039.png)
+![Markdown Logo](./Images/039.png)
 ### 订单数据查询--查找使用"credit_card"支付的订单
 ```
 GET /order_records/_search
@@ -5572,7 +5572,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/040.png)
+![Markdown Logo](./Images/040.png)
 ### 订单数据查询--查询总金额在50美元到200美元之间的所有订单
 ```
 GET /order_records/_search
@@ -5845,7 +5845,7 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/041.png)
+![Markdown Logo](./Images/041.png)
 ### 订单数据查询--查找订单ID中包含"OR01"的所有订单
 ```
 GET /order_records/_search
@@ -6110,4 +6110,4 @@ GET /order_records/_search
 }
 ```
 ### 示例图片--
-![Markdown Logo](https://github.com/Gitshimyan/ES/raw/main/Images/042.png)
+![Markdown Logo](./Images/042.png)
